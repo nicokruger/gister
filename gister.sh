@@ -92,7 +92,7 @@ $CURL $GIST_URL > /tmp/.gister_${GIST}.sh
 if [ $mode -eq 0 ]; then
   echo >&2
   echo >&2
-  chmod a+x /tmp/.gister_${GIST}.sh ${arg[@]}
+  chmod a+x /tmp/.gister_${GIST}.sh
   /tmp/.gister_${GIST}.sh ${arg[@]}
 fi
 if [ $mode -eq 1 ]; then
