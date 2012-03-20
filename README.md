@@ -12,13 +12,13 @@ Playing
 -------
 Go into a git repository, and type the following:
  
-    gister.sh -x nicokruger foreach - $(~/gister.sh -s nicokruger count-files) | xargs ~/gister.sh -x nicokruger simple-gnuplot.sh -
+    gister.sh -x nicokruger foreach - $(gister.sh -s nicokruger count-files) | xargs gister.sh -x nicokruger simple-gnuplot.sh -
 
 This will get a couple of gists from github, and generate a gnuplot graph plotting the amount of files in the git repository over time.
 
 Other stuff to do:
 
-    ~/gister.sh -x nicokruger 8ball.rb
+    gister.sh -x nicokruger 8ball.rb
 
 More to be added later.
 
